@@ -5,7 +5,7 @@
 	<div class="card">
 
 		<!-- photo cliquable -->
-		<a href="fiche_produit.php?id_produit=<?php echo $product['id_produit'] ?>">
+		<a href="index.php?controller=product&id_produit=<?php echo $product['id_produit'] ?>">
 			<img 
 			src="<?php echo $product['photo'] ?>" 
 			class="card-img-top" 
