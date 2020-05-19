@@ -28,7 +28,7 @@ if( isset($_GET['categorie']) && $_GET['categorie'] != 'all' ) {
 /**
  * Récupération du top 3 des produits
  */
-$top3 = getBestSoldProducts(10);
+$top3 = getBestSoldProducts(3);
 
 
 /**
